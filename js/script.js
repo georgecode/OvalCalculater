@@ -8,7 +8,10 @@ $(".hello" ).click(function() {
 
 var a = 400;//bigger
 var b = 300;//smaller
-/*
+
+//The famous Indian mathematician Ramanujan 
+//came up with this better approximation below:
+/*	
 function oval(a,b){
 	var result = Math.PI*(3*(a+b)-Math.sqrt((3*a+b)*(a+3*b)));
 	console.log(result);
