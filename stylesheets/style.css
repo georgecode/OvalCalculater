@@ -1,71 +1,18 @@
-/*
-div {
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: relative;
-}
-
-div::after {
-  content: "";
-  background: url(image.jpg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
-}
-*/
-/*
-.wrapper{
-	background-color:white;
-	width:100%;
-	position: absolute; 
-	bottom:0px;
-	top:0px;
-	opacity: 0.5;
-}
-*/
-/*
-body{
-	position: relative;
-	height:1000px;
-	width:100%;
-	margin-top: -20px;
-	
-}
-
-body::after{
-  content: "";
-  //background: url(../images/math.jpg) center center fixed;
-  background: url(../images/geometry.jpg) center center;
-  background-size: cover;
-  opacity: 0.05;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; 
-  width: 100%;
-  height:100%;  
-}
-*/
-/* line 59, ../sass/style.scss */
+/* line 4, ../sass/style.scss */
 body {
   background: url(../images/geometryDim.jpg) center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* line 63, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 .mainHead {
   text-align: center;
   margin-top: 20px;
   position: relative;
+  font-weight: light;
 }
 
-/* line 69, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .oval {
   background: url(../images/oval.svg) center;
   background-size: 300px 200px;
@@ -74,22 +21,54 @@ body {
   margin: 0 auto;
 }
 
-/*
-.oval{
-width:200px;
-height:100px;
-background-color: red;
-@include border-radius(50%);
-//position: relative;
-margin:0 auto;
-
+/* line 25, ../sass/style.scss */
+.inputs {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-size: 1.5em;
+  padding-left: 40px;
 }
 
-.horizontal-line{
-		width:200px;
-		height:1px;
-		background-color: black;
-		position: relative;
-		top:50px;
-	}	
-*/
+/* line 35, ../sass/style.scss */
+.diaA {
+  margin: 0 auto;
+}
+
+/* line 39, ../sass/style.scss */
+.answer {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* line 43, ../sass/style.scss */
+.results {
+  font-weight: 700;
+}
+
+/* line 47, ../sass/style.scss */
+.btn {
+  margin-top: 20px;
+  background-color: #18FF74;
+  font-weight: 600;
+  font-size: 1em;
+  width: 200px;
+}
+
+/* line 55, ../sass/style.scss */
+.btn:hover {
+  background-color: #16E8A5;
+}
+
+/* line 59, ../sass/style.scss */
+.breakLine {
+  width: 70%;
+  height: 1px;
+  background-color: black;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
